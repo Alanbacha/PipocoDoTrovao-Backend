@@ -4,7 +4,7 @@
 	"description": "Pipoco de trovão é um jogo de cartas com o propósito de beber bebida alcoólica.",
 	"main": "src/server.js",
 	"scripts": {
-		"start": "nodemon src/server.js",
+		"start": "node src/server.js",
 		"test": "cross-env NODE_ENV=test jest"
 	},
 	"repository": {
