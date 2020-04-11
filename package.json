@@ -1,0 +1,50 @@
+{
+	"name": "pipocodotrovao",
+	"version": "1.0.0",
+	"description": "Pipoco de trovão é um jogo de cartas com o propósito de beber bebida alcoólica.",
+	"main": "src/server.js",
+	"scripts": {
+		"start": "node src/server.js",
+		"test": "cross-env NODE_ENV=test jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Alanbacha/PipocoDoTrovao.git"
+	},
+	"keywords": [
+		"pipoco do trovão",
+		"jogo",
+		"cartas",
+		"bebida",
+		"jogo de cartas",
+		"jogo de bebida",
+		"social",
+		"thunder bang",
+		"game",
+		"cards",
+		"drink",
+		"card game",
+		"drink game",
+		"happy hour"
+	],
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"knex": "^0.20.13",
+		"sqlite3": "^4.1.1"
+	},
+	"devDependencies": {
+		"jest": "^25.3.0",
+		"nodemon": "^2.0.3",
+		"supertest": "^4.0.2"
+	},
+	"engines": {
+		"node": "^12.x"
+	},
+	"author": "Alan Bacha",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Alanbacha/PipocoDoTrovao/issues"
+	},
+	"homepage": "https://github.com/Alanbacha/PipocoDoTrovao#readme"
+}
