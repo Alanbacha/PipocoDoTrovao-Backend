@@ -1,21 +1,13 @@
 const request = require("supertest");
 const app = require("../../src/app");
-const connection = require("../../src/database/connection");
 
 describe("Cards", () => {
-	beforeEach(async () => {
-		await connection.migrate.rollback();
-		await connection.migrate.latest();
-	});
+	const cardsUniques = process.env.cardsUniques || 14;
 
-	afterAll(async () => {
-		await connection.destroy();
-	});
-
-	it("should be able to list 52 cards", async () => {
+	it(`should be able to list ${cardsUniques} cards`, async () => {
 		const res = await request(app).get("/cards");
 
-		expect(res.header.toHaveProperty("X-Total-Count"));
-		expect(res.header["X-Total-Count"]).toBe(52);
+		expect(res.header).toHaveProperty("x-total-count");
+		expect(res.header["x-total-count"]).toBe(cardsUniques);
 	});
 });

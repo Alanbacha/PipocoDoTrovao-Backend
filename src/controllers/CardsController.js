@@ -1,4 +1,4 @@
-const connection = require("../database/connection");
+const jsonReader = require("../utils/jsonReader");
 
 /**
  * A method to List Incidents
@@ -6,17 +6,19 @@ const connection = require("../database/connection");
  * @param {*} res HTTP response argument to the middleware function, called "res" by convention.
  */
 exports.list = async (req, res) => {
-	const cardsPerPage = process.env.incidentsPerPage || 4;
-	const { page = 1 } = req.query;
+	jsonReader("./src/database/cards.json", (err, obj) => {
+		if (err) {
+			return res.status(501).json({ error: err, success: false });
+		}
 
-	const [count] = await connection("incident").count();
+		let cards = obj.cards;
+		if (cards === undefined) {
+			return res.status(501).json({ error: "the attribute cards is undefineds", success: false });
+		}
 
-	const cards = await connection("cards AS c")
-		.limit(cardsPerPage)
-		.offset((page - 1) * cardsPerPage)
-		.select("c.*");
+		cards = obj.cards;
+		res.header("x-total-count", cards.length);
 
-	res.header("X-Total-Count", count["count(*)"]);
-
-	return res.json(cards);
+		return res.json(cards);
+	});
 };

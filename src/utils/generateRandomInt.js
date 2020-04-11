@@ -1,3 +1,5 @@
+const math = require("mathjs");
+
 module.exports = function generateRandomInt(min, max) {
-	return 0;
+	return math.randomInt(min, max);
 };
