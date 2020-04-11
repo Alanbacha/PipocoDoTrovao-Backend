@@ -1,18 +1,18 @@
 {
 	"cards": [
-		{ "name": "A", "description_PtBr": "Escolhe um para beber.", "description_EnCa": "Choose one to dink.", "description_FrCa": "Choisissez-en un à boire." },
-		{ "name": "2", "description_PtBr": "Escolhe dois para beber.", "description_EnCa": "Choose two to drink.", "description_FrCa": "Choisissez deux à boire." },
-		{ "name": "3", "description_PtBr": "Escolhe três para beber.", "description_EnCa": "Choose three to drink.", "description_FrCa": "Choisissez trois à boire." },
-		{ "name": "4", "description_PtBr": "Bebê vodka (ou dose dupla de cerveja).", "description_EnCa": "Baby vodka (or double beer).", "description_FrCa": "Baby vodka (ou double bière)." },
-		{ "name": "5", "description_PtBr": "Carta para ir ao banheiro. Sem ela precisa beber para ir, e beber quando voltar.", "description_EnCa": "Letter to go to the bathroom. Without it you need to drink to go, and drink when you return.", "description_FrCa": "Lettre pour aller aux toilettes. Sans elle, vous devez boire pour aller et boire à votre retour." },
-		{ "name": "6", "description_PtBr": "Adiciona/Remove regra para jogo.", "description_EnCa": "Add / Remove game rules.", "description_FrCa": "Ajouter / supprimer des règles de jeu." },
-		{ "name": "7", "description_PtBr": "Guarda e coloca na mesa em qualquer momento. O último a apontar bebe.", "description_EnCa": "Guard and put it on the table at any time. The last to aim drinks.", "description_FrCa": "Gardez-le et mettez-le sur la table à tout moment. Le dernier à viser les boissons." },
-		{ "name": "8", "description_PtBr": "A-ti-rei o pau no ga-to. Em sílabas.", "description_EnCa": "A-ti-rei the stick in the ga-to. In syllables.", "description_FrCa": "A-ti-rei le bâton dans le ga-to. En syllabes." },
-		{ "name": "9", "description_PtBr": "Adiciona / remove frase para o jogo (não pode tirar a padrão. Adiciona sempre no final. Remove de qualquer lugar).", "description_EnCa": "Add / remove phrase for the game (you cannot remove the pattern. Always add at the end. Remove from anywhere).", "description_FrCa": "Ajouter / supprimer une phrase pour le jeu (vous ne pouvez pas supprimer le modèle. Ajoutez toujours à la fin. Supprimer de n'importe où)." },
-		{ "name": "10", "description_PtBr": "Coringa. Geralmente outra de banheiro.", "description_EnCa": "Joker. Usually another toilet.", "description_FrCa": "Joker. Habituellement une autre toilette." },
-		{ "name": "J", "description_PtBr": "Homens bebem.", "description_EnCa": "Men drink.", "description_FrCa": "Les hommes boivent." },
-		{ "name": "Q", "description_PtBr": "Mulheres bebem.", "description_EnCa": "Women drink.", "description_FrCa": "Les femmes boivent." },
-		{ "name": "K", "description_PtBr": "Todos bebem.", "description_EnCa": "Everyone drinks.", "description_FrCa": "Tout le monde boit." },
-		{ "name": "Joker", "description_PtBr": "Coringa. Geralmente outra de banheiro.", "description_EnCa": "Joker. Usually another toilet.", "description_FrCa": "Joker. Habituellement une autre toilette." }
+		{ "id": 1, "name": "A", "description_PtBr": "Escolhe um para beber.", "description_EnCa": "Choose one to dink.", "description_FrCa": "Choisissez-en un à boire." },
+		{ "id": 2, "name": "2", "description_PtBr": "Escolhe dois para beber.", "description_EnCa": "Choose two to drink.", "description_FrCa": "Choisissez deux à boire." },
+		{ "id": 3, "name": "3", "description_PtBr": "Escolhe três para beber.", "description_EnCa": "Choose three to drink.", "description_FrCa": "Choisissez trois à boire." },
+		{ "id": 4, "name": "4", "description_PtBr": "Bebê vodka (ou dose dupla de cerveja).", "description_EnCa": "Baby vodka (or double beer).", "description_FrCa": "Baby vodka (ou double bière)." },
+		{ "id": 5, "name": "5", "description_PtBr": "Carta para ir ao banheiro. Sem ela precisa beber para ir, e beber quando voltar.", "description_EnCa": "Letter to go to the bathroom. Without it you need to drink to go, and drink when you return.", "description_FrCa": "Lettre pour aller aux toilettes. Sans elle, vous devez boire pour aller et boire à votre retour." },
+		{ "id": 6, "name": "6", "description_PtBr": "Adiciona/Remove regra para jogo.", "description_EnCa": "Add / Remove game rules.", "description_FrCa": "Ajouter / supprimer des règles de jeu." },
+		{ "id": 7, "name": "7", "description_PtBr": "Guarda e coloca na mesa em qualquer momento. O último a apontar bebe.", "description_EnCa": "Guard and put it on the table at any time. The last to aim drinks.", "description_FrCa": "Gardez-le et mettez-le sur la table à tout moment. Le dernier à viser les boissons." },
+		{ "id": 8, "name": "8", "description_PtBr": "A-ti-rei o pau no ga-to. Em sílabas.", "description_EnCa": "A-ti-rei the stick in the ga-to. In syllables.", "description_FrCa": "A-ti-rei le bâton dans le ga-to. En syllabes." },
+		{ "id": 9, "name": "9", "description_PtBr": "Adiciona / remove frase para o jogo (não pode tirar a padrão. Adiciona sempre no final. Remove de qualquer lugar).", "description_EnCa": "Add / remove phrase for the game (you cannot remove the pattern. Always add at the end. Remove from anywhere).", "description_FrCa": "Ajouter / supprimer une phrase pour le jeu (vous ne pouvez pas supprimer le modèle. Ajoutez toujours à la fin. Supprimer de n'importe où)." },
+		{ "id": 10, "name": "10", "description_PtBr": "Coringa. Geralmente outra de banheiro.", "description_EnCa": "Joker. Usually another toilet.", "description_FrCa": "Joker. Habituellement une autre toilette." },
+		{ "id": 11, "name": "J", "description_PtBr": "Homens bebem.", "description_EnCa": "Men drink.", "description_FrCa": "Les hommes boivent." },
+		{ "id": 12, "name": "Q", "description_PtBr": "Mulheres bebem.", "description_EnCa": "Women drink.", "description_FrCa": "Les femmes boivent." },
+		{ "id": 13, "name": "K", "description_PtBr": "Todos bebem.", "description_EnCa": "Everyone drinks.", "description_FrCa": "Tout le monde boit." },
+		{ "id": 14, "name": "Joker", "description_PtBr": "Coringa. Geralmente outra de banheiro.", "description_EnCa": "Joker. Usually another toilet.", "description_FrCa": "Joker. Habituellement une autre toilette." }
 	]
 }
