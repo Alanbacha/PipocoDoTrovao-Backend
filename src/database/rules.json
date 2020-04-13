@@ -1,9 +1,9 @@
 {
 	"rules": [
-		{ "id": 1, "description_PtBr": "Não apontar o dedo.", "description_EnCa": "Don't point your finger.", "description_FrCa": "Ne pointez pas votre doigt." },
-		{ "id": 2, "description_PtBr": "Não falar nomes.", "description_EnCa": "Don't speak names.", "description_FrCa": "Ne prononcez pas de noms." },
-		{ "id": 3, "description_PtBr": "Não falar a palvra 'não'.", "description_EnCa": "Do not say the word 'no'.", "description_FrCa": "Ne dites pas le mot 'non'." },
-		{ "id": 4, "description_PtBr": "Não falar a palvra 'bebe'.", "description_EnCa": "Don't say the word 'drink'.", "description_FrCa": "Ne dites pas le mot 'boire'." },
-		{ "id": 5, "description_PtBr": "Sempre antes de beber, dar uma risadinha.", "description_EnCa": "Always before drinking, have a giggle.", "description_FrCa": "Toujours avant de boire, rigolez." }
+		{ "id": 1, "example": true, "active": false, "description_PtBr": "Não apontar o dedo.", "description_EnCa": "Don't point your finger.", "description_FrCa": "Ne pointez pas votre doigt." },
+		{ "id": 2, "example": true, "active": false, "description_PtBr": "Não falar nomes.", "description_EnCa": "Don't speak names.", "description_FrCa": "Ne prononcez pas de noms." },
+		{ "id": 3, "example": true, "active": false, "description_PtBr": "Não falar a palvra 'não'.", "description_EnCa": "Do not say the word 'no'.", "description_FrCa": "Ne dites pas le mot 'non'." },
+		{ "id": 4, "example": true, "active": false, "description_PtBr": "Não falar a palvra 'bebe'.", "description_EnCa": "Don't say the word 'drink'.", "description_FrCa": "Ne dites pas le mot 'boire'." },
+		{ "id": 5, "example": true, "active": false, "description_PtBr": "Sempre antes de beber, dar uma risadinha.", "description_EnCa": "Always before drinking, have a giggle.", "description_FrCa": "Toujours avant de boire, rigolez." }
 	]
 }
